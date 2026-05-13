@@ -3,6 +3,9 @@
 .env.*
 !.env.example
 
+# Planning and Documentation
+plan.md
+
 # Configuration and Secrets
 tg_cal_config.yaml
 credentials.json
