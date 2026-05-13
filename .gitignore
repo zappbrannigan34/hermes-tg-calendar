@@ -1,0 +1,54 @@
+# Environments
+.env
+.env.*
+!.env.example
+
+# Configuration and Secrets
+tg_cal_config.yaml
+credentials.json
+token.json
+*.pem
+*.key
+client_secret*.json
+
+# State and Databases
+state.db
+state.json
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
